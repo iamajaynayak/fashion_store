@@ -1,0 +1,53 @@
+.custombutton {
+  background-color: #181818;
+  color: white;
+  font-size: 1.6em;
+  letter-spacing: 0.2em;
+  border: none;
+  /*width: 40%;*/
+  height: 6vh;
+  padding: 0.5em 0;
+}
+.custombutton:focus {
+  outline: none;
+}
+.custombutton:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: grey;
+  border: 1px solid grey;
+  transition: 0.5s;
+}
+
+.google-signin {
+  background-color: #4285f4;
+}
+
+.google-signin:hover {
+  background-color: #0974b0;
+  color: white;
+  border: 1px solid #0974b0;
+}
+
+.inverted {
+  background-color: #181818;
+  color: white;
+  /*border : 1px solid white;*/
+  letter-spacing: 0;
+  word-spacing: 0.1em;
+  position: absolute;
+  top: 250px;
+  left: 1px;
+}
+.inverted:hover {
+  background-color: #303030;
+  color: white;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1190px) {
+  .inverted {
+    top: 215px;
+    left: 2px;
+  }
+}

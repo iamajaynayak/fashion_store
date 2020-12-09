@@ -1,0 +1,31 @@
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  width: 20vw;
+  margin: 0 auto;
+  position: relative;
+}
+.image {
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+}
+.image:hover {
+  opacity: 0.6;
+  transition: ease-in-out 0.7s;
+}
+
+.collection-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8em;
+}
+
+.name-view,
+.price-view {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 800px) {
+}

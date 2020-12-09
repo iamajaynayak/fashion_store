@@ -1,0 +1,85 @@
+.contactme-container {
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 90%;
+  padding: 2em 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.qr-code {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container input {
+  width: 50%;
+  margin: 0.5em auto;
+}
+.or {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.enter-name,
+.enter-email,
+.send-msg {
+  height: 30px;
+  border: none;
+}
+.enter-name,
+.enter-email {
+  border-bottom: 1px solid black;
+}
+.enter-msg {
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.send-msg {
+  background: black;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+.send-msg:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+.scan-this {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .contactme-container {
+    flex-direction: column;
+  }
+  .qr-code {
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-container input {
+    width: 70%;
+  }
+
+  .scan-this,
+  .or {
+    font-size: 1.3rem;
+  }
+}

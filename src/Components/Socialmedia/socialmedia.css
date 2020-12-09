@@ -1,0 +1,47 @@
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(16, 16, 16, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 0 50px rgba(16, 16, 16, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 16, 16, 0);
+  }
+}
+
+.social-media-container {
+  padding: 4.1em 0;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.social-img {
+  margin: 2em 0;
+  width: 50%;
+  border-radius: 30px;
+  animation: pulse 1.7s infinite;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 rgba(16, 16, 16, 0.5);
+}
+
+.social-link:hover {
+  animation: none;
+}
+
+.social-name {
+  font-size: 1rem;
+  font-weight: 700;
+}

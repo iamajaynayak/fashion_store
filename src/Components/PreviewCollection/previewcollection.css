@@ -1,0 +1,17 @@
+.preview-collection{
+	margin-top: 5em;
+
+}
+.preview-collection:after {
+	content: "";
+	display: block;
+    margin-top: 2em; 
+	border-bottom: 1px solid #282828;
+}
+
+.preview-item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}

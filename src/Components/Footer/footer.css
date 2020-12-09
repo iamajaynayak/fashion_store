@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 3em;
+}
+
+.footer-line,
+.copy-right {
+  padding: 0.5em;
+  word-spacing: 0.2em;
+}
+
+.copy-right {
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+.header-options {
+  min-width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1em;
+  /*border: 1px dotted;*/
+  width: 30vw;
+}
+
+.opt {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header-options {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .header img {
+    margin: 0 auto;
+    width: auto;
+  }
+  .header-logo-mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .opt {
+    display: flex;
+  }
+}

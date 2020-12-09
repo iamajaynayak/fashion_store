@@ -1,0 +1,32 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 0 2em;
+}
+.sign-up h2 {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.sign-up span {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .sign-up {
+    width: 90%;
+    margin: 12em auto;
+  }
+
+  .mobile-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign-up h2,
+  .sign-up span {
+    margin: 0.5em auto;
+
+    font-size: 0.9rem;
+  }
+}
