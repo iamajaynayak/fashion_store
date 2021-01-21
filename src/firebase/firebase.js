@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyCov7D4UGPrKyA7Rrpdxc5VycYzhFnNeqs",
-  authDomain: "fashionstore-db.firebaseapp.com",
-  databaseURL: "https://fashionstore-db.firebaseio.com",
-  projectId: "fashionstore-db",
-  storageBucket: "fashionstore-db.appspot.com",
-  messagingSenderId: "394891551161",
-  appId: "1:394891551161:web:cbbe192714b1113260d668",
+  apiKey: "#",
+  authDomain: "#",
+  databaseURL: "#",
+  projectId: "#",
+  storageBucket: "#",
+  messagingSenderId: "#",
+  appId: "#",
 };
 
 firebase.initializeApp(config);
