@@ -14,9 +14,9 @@ import { selectCurrentUser } from "./redux/user/user.selectors.js";
 import checkOutPage from "./Pages/CheckOut/CheckOut.js";
 import ContactPage from "./Pages/Contact/ContactPage";
 
-const errorPage = () => (
-  <h1 style={{ textAlign: `center` }}>You shouldn't be here</h1>
-);
+// const errorPage = () => (
+//   <h1 style={{ textAlign: `center` }}>You shouldn't be here</h1>
+// );
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
